@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Linking CSS stylesheets-->
+<link rel="stylesheet" href="./css/header_navbar.css">
+<link rel="stylesheet" href="./css/logo_search_login.css">
+<link rel="stylesheet" href="./css/home_body.css">
+<link rel="stylesheet" href="./css/footer.css">
+
+<!--Media queries for screen less than 665px-->
+<link rel="stylesheet" media="screen and (max-width: 665px)" href="css/media_query.css">
+
+<!-- Load icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+    <!--
+        Page banner plus navigation links will be here.
+    -->
+    <header>
+      <div class="flex-container-header">
+          <div class="project-name">
+          <h1>Helping Hands</h1>
+          </div>
+          <div class="navbar">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="latest.html">Latest</a></li>
+                    </ul>
+                </nav>
+            </div>
+      </div>
+  </header>
+
+   <!--
+       Adding logo, search-box and login options.
+   -->
+    <div class="search-login-register-section">
+        <!--Logo-->
+            <div class="logo">
+                <img src="./img/join-hands.jpg">
+            </div>
+            
+       <!--Search Box-->
+            <div class="search-bar">
+                <form action="">
+                    <input type="text" placeholder="Search..." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        <!--Login and register -->
+            <div class="login-register">
+                <ul>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </div>
+    </div>
+
+    <!--Public posts shown on home page will appear here-->
+
+    <div class="flex-container-body">
+
+        <div class="disaster-index">
+            <span> Disaster Index </span>
+        </div>
+
+        <div class="sort-by">
+            <span>Sort By:</span>
+            <select name="sort-search">
+                <option selected>Date</option>
+                <option>Location</option>
+                <option>Type</option>
+            </select>
+        </div>
+            
+    </div>
+
+    <div class="flex-container-body-posts">
+        <div class="post-content">
+        <h2>Post</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque 
+          ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget 
+          luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+        </div>
+
+        <div class="post-content">
+            <h2>Post</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque 
+              ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget 
+              luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+            </div>
+        
+        <div class="post-content">
+        <h2>Post</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque 
+          ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget 
+          luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+        </div>
+
+        <div class="post-content">
+            <h2>Post</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque 
+              ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget 
+              luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+            </div>
+        <div class="post-content">
+        <h2>Post</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque 
+          ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget 
+          luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+        </div>
+        <div class="post-content">
+        <h2>Post</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque 
+          ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget 
+          luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+        </div>
+            
+    </div>
+    <!--Footer section of the page-->
+    <footer>
+        <div class="flex-container-footer">
+            <div class="contact-us">
+                <span>Contact us:</span>
+                <ul>
+                    <a href="mailto:#"><li><i class="fa fa-envelope" style="font-size: 16px; color:white;"></i> support@helpinghands.com</li></a>
+                    <li><i class="fa fa-phone"></i> 9869056799</li>
+                </ul>
+            </div>
+
+            <div class="social-media">
+                <!--Links are not added.-->
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+            </div>
+
+            <div class="links">
+                <span>Links:</span>
+                <ul>
+                    <li>About us</li>
+                    <li>Goals</li>
+                    <li>Privacy</li>
+                    <li>Feedback</li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
