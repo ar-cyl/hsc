@@ -1,0 +1,124 @@
+
+/*
+Styling login and register button
+*/
+
+.search-login-register-section{
+    margin:auto;
+    position: sticky;
+    top:0px;
+    z-index: 2;
+    background-color: #223236;
+    /*border:purple 1px solid;*/
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+
+}
+
+/*Styling logo*/
+.logo{
+    padding:0px;
+    /*border:orange 1px solid;*/
+    flex-shrink:0;
+    margin-top: 5px;
+}
+
+.logo img{
+    border-radius: 50%;
+    padding: 2px;
+    border:2px solid #35424a;
+    width: 100%;
+    height:100%;
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 50px;
+    min-height: 50px;
+
+}
+
+/*Styling Search bar*/
+.search-bar{
+    /*border:orange 1px solid;*/
+    padding:0px 0px 0px 0px;
+    flex-shrink:2;
+    flex-grow: 1;
+}
+.search-bar form input[type=text]{
+
+    /*border:green 2px solid;*/
+    width:72%;
+    margin-left:8%;
+    float:left;
+    padding:14px;
+    border: #2a383d 1px solid;
+}
+
+.search-bar form button{
+    float:left;
+    padding:14px;
+    background-color: #0a7df7 ;
+    border: #0a7df7 1px solid;
+    color: #ffffff;
+    cursor:pointer;
+
+}
+
+.search-bar form button:hover{
+    background-color: #16cc32;
+}
+
+/*Styling login and register section*/
+.login-register{
+    /*border:orange 2px solid;*/
+    margin:5px;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.login-register ul{
+    list-style-type: none;
+    /*border:#2222 1px solid;*/
+    align-items: center;
+    float:right;
+
+}
+
+.login-register li{
+    display: inline-block;
+    /*border:#aa00ff 1px solid;*/
+    margin:0px;
+    padding:0px;
+}
+
+.login-register a{
+    float:left;
+    padding-right:5px;
+}
+
+.login-register  a:link, a:visited{
+    text-decoration: none;
+    font-size: 16px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left:15px;
+    padding-right:15px;
+    color:#ffffff;
+    border: #0a7df7 1px solid;
+    border-radius: 7%;
+    background-color: #0a7df7;
+    
+
+}
+
+.login-register a:hover, a:active{
+    background-color: #16cc32;
+    border: #16cc32 2px solid;
+    border-radius: 7%;
+    font-size:17px;
+}
+
