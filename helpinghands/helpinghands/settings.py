@@ -25,13 +25,16 @@ SECRET_KEY = '1vd0xs5qapn@gjp%@ru67x!s*92#tp8u8*93(tdown-*3j@+49'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mraldon.pythonanywhere.com', ]
+
+ALLOWED_HOSTS = ['mraldon.pythonanywhere.com', '127.0.0.1', ]
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'disasterindex',
     'django.contrib.admin',
+    'csvimport.app.CSVImportConf',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
